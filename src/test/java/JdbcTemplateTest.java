@@ -19,7 +19,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @WebAppConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {WebConfig.class, RootConfig.class})
-@ActiveProfiles("dev")
 public class JdbcTemplateTest {
 
 
@@ -29,11 +28,6 @@ public class JdbcTemplateTest {
     @Test
     public void addStudentTest() {
         assertNotNull(studentService);
-    }
-
-    public void findKeenandraTest() {
-        Student studentKeenan = studentService.getStudentById("201081041");
-        assertNotNull(studentKeenan);
     }
 
 

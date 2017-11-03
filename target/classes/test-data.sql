@@ -15,3 +15,12 @@ VALUES
 (2,
 'Yuni Ghaitsani',
 '201081040');
+
+INSERT INTO student
+(`_id`,
+`student_name`,
+`student_id`)
+VALUES
+(3,
+'Keenandra',
+'201081041');

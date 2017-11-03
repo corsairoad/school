@@ -18,6 +18,7 @@
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.10.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.10.RELEASE" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.8.RELEASE" />

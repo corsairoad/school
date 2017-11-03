@@ -22,5 +22,5 @@ INSERT INTO student
 `student_id`)
 VALUES
 (3,
-'Keenandra R. A.',
+'Keenandra',
 '201081041');

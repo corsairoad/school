@@ -38,7 +38,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        clients.inMemory()
+        /*clients.inMemory()
                 .withClient("my-trusted-client")
                 .authorizedGrantTypes("password", "authorization_code", "refresh_token", "implicit")
                 .authorities("ROLE_CLIENT", "ROLE_TRUSTED_CLIENT")
@@ -46,6 +46,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .secret("secret")
                 .accessTokenValiditySeconds(240).//Access token is only valid for 2 minutes.
                 refreshTokenValiditySeconds(600);//Refresh token is only valid for 10 minutes.
+                */
     }
 
     @Override

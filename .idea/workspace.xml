@@ -101,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
-              <caret line="42" column="69" lean-forward="false" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="69" />
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,8 +184,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/WebInit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/service/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java" />
       </list>
     </option>
   </component>
@@ -1228,7 +1228,7 @@
       <workItem from="1509706714641" duration="3642000" />
       <workItem from="1509808084544" duration="2703000" />
       <workItem from="1509955599355" duration="1754000" />
-      <workItem from="1510036488122" duration="5322000" />
+      <workItem from="1510036488122" duration="5444000" />
     </task>
     <servers />
   </component>
@@ -1265,7 +1265,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69388000" />
+    <option name="totallyTimeSpent" value="69510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1277" height="710" extended-state="6" />
@@ -1806,7 +1806,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
-          <caret line="42" column="69" lean-forward="false" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="69" />
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

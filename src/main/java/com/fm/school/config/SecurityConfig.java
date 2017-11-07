@@ -36,14 +36,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        //super.configure(auth);
-        auth.inMemoryAuthentication()
-                .withUser("admin").password("admin")
-                .roles("USER","ADMIN");
-    }
-
-    @Override
     protected void configure(HttpSecurity http) throws Exception {
         //super.configure(http);
        //// http.authorizeRequests().antMatchers("/api/v1/**").authenticated()

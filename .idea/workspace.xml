@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d306f34-dda6-4bcd-ab2a-064c2e43f945" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +43,7 @@
       <file leaf-file-name="ResourceServerConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/ResourceServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="228">
               <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,12 +87,12 @@
       <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+            <state relative-caret-position="378">
+              <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2819#2820#0" expanded="true" />
-                <element signature="e#2866#2867#0" expanded="true" />
+                <element signature="e#2551#2552#0" expanded="true" />
+                <element signature="e#2598#2599#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,8 +101,8 @@
       <file leaf-file-name="AuthorizationServerConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="183">
+              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/ResourceServerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/WebInit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/service/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java" />
       </list>
     </option>
   </component>
@@ -1228,7 +1229,7 @@
       <workItem from="1509706714641" duration="3642000" />
       <workItem from="1509808084544" duration="2703000" />
       <workItem from="1509955599355" duration="1754000" />
-      <workItem from="1510036488122" duration="3354000" />
+      <workItem from="1510036488122" duration="4209000" />
     </task>
     <servers />
   </component>
@@ -1265,7 +1266,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67420000" />
+    <option name="totallyTimeSpent" value="68275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1277" height="710" extended-state="6" />
@@ -1783,19 +1784,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        <state relative-caret-position="378">
+          <caret line="45" column="42" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2819#2820#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
+            <element signature="e#2551#2552#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/ResourceServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="228">
           <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1805,8 +1806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="183">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

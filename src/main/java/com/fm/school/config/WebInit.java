@@ -1,8 +1,8 @@
 package com.fm.school.config;
 
-import org.springframework.context.annotation.Configuration;
+import com.fm.school.config.oauth2.AuthorizationServerConfig;
+import com.fm.school.config.oauth2.ResourceServerConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
@@ -15,7 +15,8 @@ public class WebInit extends AbstractAnnotationConfigDispatcherServletInitialize
 
 
     protected Class<?>[] getRootConfigClasses() {
-        return new Class<?>[]{RootConfig.class, SecurityConfig.class};
+        return new Class<?>[]{RootConfig.class, SecurityConfig.class,
+                AuthorizationServerConfig.class, ResourceServerConfig.class};
     }
 
     protected Class<?>[] getServletConfigClasses() {

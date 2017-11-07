@@ -4,16 +4,15 @@ import com.fm.school.domain.Student;
 import com.fm.school.domain.StudentsResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
 import java.net.UnknownHostException;
-import java.util.List;
 
 /**
  * Created by fadlymunandar on 10/18/17.
  */
 
-@Service
+@Repository
 public class StudentServiceImpl implements StudentService {
 
     private StudentDao studentDao;

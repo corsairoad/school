@@ -32,15 +32,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public void globalUserDetails(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
                 .withUser("bill").password("abc123").roles("ADMIN").and()
-                .withUser("bob").password("abc123").roles("USER");
+                .withUser("bob").password("abc123").roles("USER").and()
+                .withUser("fadly").password("admin123").roles("ADMIN");
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         //super.configure(http);
-       http.authorizeRequests().antMatchers("/api/v1/**").authenticated()
-                .and()
-                .csrf().disable()
+       //http.authorizeRequests().antMatchers("/api/v1/students").authenticated()
+                //.and()
+                http.csrf().disable()
                 .anonymous().disable()
                 .authorizeRequests()
                 .antMatchers("/oauth/token").permitAll();

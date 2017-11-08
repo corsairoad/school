@@ -46,7 +46,6 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .secret("secret")
                 .accessTokenValiditySeconds(240).//Access token is only valid for 2 minutes.
                 refreshTokenValiditySeconds(600);//Refresh token is only valid for 10 minutes.
-
     }
 
     @Override

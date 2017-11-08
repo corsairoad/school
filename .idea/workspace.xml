@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d306f34-dda6-4bcd-ab2a-064c2e43f945" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/ResourceServerConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/ResourceServerConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,12 +87,12 @@
       <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state relative-caret-position="168">
+              <caret line="41" column="80" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2632#2633#0" expanded="true" />
-                <element signature="e#2679#2680#0" expanded="true" />
+                <element signature="e#2626#2627#0" expanded="true" />
+                <element signature="e#2673#2674#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/WebInit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/service/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -1229,7 +1229,7 @@
       <workItem from="1509706714641" duration="3642000" />
       <workItem from="1509808084544" duration="2703000" />
       <workItem from="1509955599355" duration="1754000" />
-      <workItem from="1510036488122" duration="7994000" />
+      <workItem from="1510036488122" duration="8247000" />
     </task>
     <servers />
   </component>
@@ -1266,7 +1266,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72060000" />
+    <option name="totallyTimeSpent" value="72313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1277" height="710" extended-state="6" />
@@ -1804,12 +1804,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        <state relative-caret-position="168">
+          <caret line="41" column="80" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2632#2633#0" expanded="true" />
-            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2626#2627#0" expanded="true" />
+            <element signature="e#2673#2674#0" expanded="true" />
           </folding>
         </state>
       </provider>

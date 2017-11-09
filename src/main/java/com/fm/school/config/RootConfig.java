@@ -29,7 +29,7 @@ public class RootConfig {
     }
 
     @Bean(destroyMethod = "shutdown")
-    //@Profile("dev")
+    @Profile("dev")
     public DataSource embeddedDataSource() {
         return new EmbeddedDatabaseBuilder()
                 .setName("school")

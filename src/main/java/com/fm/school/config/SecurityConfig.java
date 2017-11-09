@@ -41,8 +41,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser("fadly").password("admin123").roles("ADMIN");
                 */
         auth.jdbcAuthentication().dataSource(dataSource)
-                .usersByUsernameQuery("select * from users where username=?")
-                .authoritiesByUsernameQuery("select * from user_roles where username=?");
+                .usersByUsernameQuery("select username, password, enabled from users where username=?")
+                .authoritiesByUsernameQuery("select username, role from user_roles where username=?");
     }
 
     @Override

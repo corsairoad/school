@@ -25,8 +25,25 @@ VALUES
 'Keenandra',
 '201081041');
 
+/*
 insert into users
 VALUES ('fadly', 'admin123', 1);
 
 insert into authorities
 VALUES ('fadly', 'ADMIN');
+*/
+
+INSERT INTO users(username,password,enabled)
+VALUES ('fadly','fadly', true);
+
+INSERT INTO users(username,password,enabled)
+VALUES ('user','user', true);
+
+INSERT INTO user_roles (username, role)
+VALUES ('fadly', 'ROLE_USER');
+
+INSERT INTO user_roles (username, role)
+VALUES ('fadly', 'ROLE_ADMIN');
+
+INSERT INTO user_roles (username, role)
+VALUES ('user', 'user');

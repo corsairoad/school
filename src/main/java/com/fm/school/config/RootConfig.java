@@ -28,7 +28,7 @@ public class RootConfig {
         return jndiDataSourceLookup.getDataSource("jdbc/school");
     }
 
-    @Bean(destroyMethod = "shutdown")
+    @Bean(destroyMethod = "shutdown", name = "dataSource")
     //@Profile("dev")
     public DataSource embeddedDataSource() {
         return new EmbeddedDatabaseBuilder()

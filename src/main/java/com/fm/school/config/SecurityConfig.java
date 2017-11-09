@@ -17,6 +17,8 @@ import org.springframework.security.oauth2.provider.request.DefaultOAuth2Request
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.InMemoryTokenStore;
 
+import javax.sql.DataSource;
+
 /**
  * Created by fadlymunandar on 11/3/17.
  */
@@ -26,14 +28,21 @@ import org.springframework.security.oauth2.provider.token.store.InMemoryTokenSto
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
+    private DataSource dataSource;
+
+    @Autowired
     private ClientDetailsService clientDetailsService;
 
     @Autowired
     public void globalUserDetails(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
+        /* auth.inMemoryAuthentication()
                 .withUser("bill").password("abc123").roles("ADMIN").and()
                 .withUser("bob").password("abc123").roles("USER").and()
                 .withUser("fadly").password("admin123").roles("ADMIN");
+                */
+        auth.jdbcAuthentication().dataSource(dataSource)
+                .usersByUsernameQuery("select * from users where username=?")
+                .authoritiesByUsernameQuery("select * from user_roles where username=?");
     }
 
     @Override

@@ -34,10 +34,10 @@ VALUES ('fadly', 'ADMIN');
 */
 
 INSERT INTO users(username,password,enabled)
-VALUES ('fadly','fadly', true);
+VALUES ('fadly','fadly', 1);
 
 INSERT INTO users(username,password,enabled)
-VALUES ('user','user', true);
+VALUES ('user','user', 1);
 
 INSERT INTO user_roles (username, role)
 VALUES ('fadly', 'ROLE_USER');

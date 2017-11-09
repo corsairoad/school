@@ -7,10 +7,18 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.ResultSetExtractor;
+import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.HashMap;
 
 /**
  * Created by fadlymunandar on 10/18/17.
@@ -23,11 +31,35 @@ public class JdbcTemplateTest {
 
 
     @Autowired
+    NamedParameterJdbcTemplate jdbcTemplate;
+
+    @Autowired
     StudentService studentService;
 
     @Test
     public void addStudentTest() {
         assertNotNull(studentService);
+    }
+
+    @Test
+    public void jdbcNotNullTest() {
+        assertNotNull(jdbcTemplate);
+    }
+
+    @Test
+    public void usersTest() {
+        //jdbcTemplate.update("insert into users(username, password, enabled) values ('fadly','fadly', 1)", new MapSqlParameterSource());
+        String username = jdbcTemplate.query("select username from users where username='fadly'",
+                new ResultSetExtractor<String>() {
+                    public String extractData(ResultSet rs) throws SQLException, DataAccessException {
+                        if (rs.next()) {
+                            return rs.getString("username");
+                        }
+
+                    return null;
+            }
+        });
+        assertEquals("the username: ", "fadly", username);
     }
 
 

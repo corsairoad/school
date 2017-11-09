@@ -20,6 +20,7 @@ import javax.sql.DataSource;
 @ComponentScan("com.fm.school.service")
 public class RootConfig {
 
+
     @Bean
     @Profile("prod")
     public DataSource jndiDataSource(){
@@ -27,6 +28,7 @@ public class RootConfig {
         jndiDataSourceLookup.setResourceRef(true);
         return jndiDataSourceLookup.getDataSource("jdbc/school");
     }
+
 
     @Bean(destroyMethod = "shutdown", name = "dataSource")
     //@Profile("dev")

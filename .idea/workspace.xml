@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d306f34-dda6-4bcd-ab2a-064c2e43f945" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/lib/spring-security-oauth2-2.1.1.RELEASE.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fm/school/config/RootConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/fm/school/config/RootConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fm/school/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/fm/school/config/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fm/school/config/WebInit.class" afterPath="$PROJECT_DIR$/target/classes/com/fm/school/config/WebInit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/fm/school/service/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/fm/school/service/StudentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/com/fm/school/config/RootConfig.class" afterPath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/com/fm/school/config/RootConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/com/fm/school/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/com/fm/school/config/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/com/fm/school/config/WebInit.class" afterPath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/com/fm/school/config/WebInit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/com/fm/school/service/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/com/fm/school/service/StudentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/JdbcTemplateTest.class" afterPath="$PROJECT_DIR$/target/test-classes/JdbcTemplateTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fm/school/config/RootConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/fm/school/config/RootConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/JdbcTemplateTest.java" afterPath="$PROJECT_DIR$/src/test/java/JdbcTemplateTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/schema.sql" afterPath="$PROJECT_DIR$/target/classes/schema.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test-data.sql" afterPath="$PROJECT_DIR$/target/classes/test-data.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/schema.sql" afterPath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/schema.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/test-data.sql" afterPath="$PROJECT_DIR$/target/school-1.0-SNAPSHOT/WEB-INF/classes/test-data.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,12 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OAuth2AccessDeniedHandler.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.0.RELEASE/spring-security-oauth2-2.2.0.RELEASE.jar!/org/springframework/security/oauth2/provider/error/OAuth2AccessDeniedHandler.class">
+      <file leaf-file-name="JdbcTemplateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JdbcTemplateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="251">
+              <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+              <folding>
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1365#1366#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#1455#1456#0" expanded="true" />
+                <element signature="e#1750#2093#0" expanded="true" />
+                <element signature="e#2092#2093#0" expanded="true" />
+                <marker date="1510226150000" expanded="true" signature="1529:1603" ph="insert into users... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="44" column="67" lean-forward="false" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+              <caret line="44" column="55" lean-forward="false" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2891#2892#0" expanded="true" />
@@ -99,8 +123,8 @@
       <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/RootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+            <state relative-caret-position="63">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,8 +133,8 @@
       <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="297">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -119,8 +143,8 @@
       <file leaf-file-name="test-data.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/test-data.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            <state relative-caret-position="297">
+              <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -179,17 +203,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/service/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JdbcTemplateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/WebSecurityInit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/WebInit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/service/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/AuthorizationServerConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/oauth2/ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/RootConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test-data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fm/school/config/RootConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/JdbcTemplateTest.java" />
       </list>
     </option>
   </component>
@@ -547,7 +571,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="JUnit.JdbcTemplateTest.usersTest">
     <configuration default="false" name="JdbcTemplateTest.addStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="school" />
@@ -577,6 +601,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JdbcTemplateTest" />
       <option name="METHOD_NAME" value="findKeenandraTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcTemplateTest.usersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="school" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="usersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcTemplateTest.jdbcNotNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="school" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="jdbcNotNullTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1186,17 +1252,21 @@
         </option>
       </method>
     </configuration>
-    <list size="5">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestingJdbc" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.daoShouldNotNull" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.addStudentTest" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.findKeenandraTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.usersTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.jdbcNotNullTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.findKeenandraTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.addStudentTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.usersTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.jdbcNotNullTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.findKeenandraTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.addStudentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1228,44 +1298,44 @@
       <workItem from="1509706714641" duration="3642000" />
       <workItem from="1509808084544" duration="2703000" />
       <workItem from="1509955599355" duration="1754000" />
-      <workItem from="1510036488122" duration="18371000" />
+      <workItem from="1510036488122" duration="20989000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JdbcTemplateTest_addStudentTest - 2017.10.18 at 16h 18m 15s.xml">
-      <configuration name="JdbcTemplateTest.addStudentTest" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_jdbcNotNullTest - 2017.11.09 at 18h 11m 06s.xml">
+      <configuration name="JdbcTemplateTest.jdbcNotNullTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_daoShouldNotNull - 2017.10.18 at 15h 41m 08s.xml">
-      <configuration name="JdbcTemplateTest.daoShouldNotNull" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 03m 48s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_daoShouldNotNull - 2017.10.18 at 15h 41m 59s.xml">
-      <configuration name="JdbcTemplateTest.daoShouldNotNull" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 04m 58s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_daoShouldNotNull - 2017.10.18 at 15h 44m 22s.xml">
-      <configuration name="JdbcTemplateTest.daoShouldNotNull" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 06m 11s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_daoShouldNotNull - 2017.10.18 at 15h 50m 03s.xml">
-      <configuration name="JdbcTemplateTest.daoShouldNotNull" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 09m 26s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_daoShouldNotNull - 2017.10.18 at 15h 51m 37s.xml">
-      <configuration name="JdbcTemplateTest.daoShouldNotNull" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 13m 05s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_daoShouldNotNull - 2017.10.18 at 15h 53m 07s.xml">
-      <configuration name="JdbcTemplateTest.daoShouldNotNull" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 13m 55s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_daoShouldNotNull - 2017.10.18 at 15h 56m 58s.xml">
-      <configuration name="JdbcTemplateTest.daoShouldNotNull" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 15m 25s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_daoShouldNotNull - 2017.10.18 at 16h 07m 31s.xml">
-      <configuration name="JdbcTemplateTest.daoShouldNotNull" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 16m 08s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_findKeenandraTest - 2017.11.03 at 19h 12m 08s.xml">
-      <configuration name="JdbcTemplateTest.findKeenandraTest" configurationId="JUnit" />
+    <history-entry file="JdbcTemplateTest_usersTest - 2017.11.09 at 18h 16m 40s.xml">
+      <configuration name="JdbcTemplateTest.usersTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82437000" />
+    <option name="totallyTimeSpent" value="85055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1277" height="710" extended-state="6" />
@@ -1284,16 +1354,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34142396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.49392712" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.49392712" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2728745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1302,7 +1373,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34142396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1371,7 +1441,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1554,9 +1624,8 @@
         <state relative-caret-position="165">
           <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1676,18 +1745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JdbcTemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#964#965#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/service/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1802,24 +1859,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/RootConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="63">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="297">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1827,11 +1876,35 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fm/school/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="44" column="67" lean-forward="false" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+          <caret line="44" column="55" lean-forward="false" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2891#2892#0" expanded="true" />
             <element signature="e#2938#2939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JdbcTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1750#2093#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <marker date="1510226150000" expanded="true" signature="1529:1603" ph="insert into users... " />
           </folding>
         </state>
       </provider>

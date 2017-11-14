@@ -16,6 +16,7 @@ import org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHand
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
     private static final String RESOURCE_ID = "school_api";
 
+
     @Override
     public void configure(HttpSecurity http) throws Exception {
         //super.configure(http);
